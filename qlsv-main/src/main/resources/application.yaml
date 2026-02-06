@@ -1,0 +1,26 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: tux2k4@gmail.com  # <-- Thay email của bạn
+    password: dftv pbug kayz wbfz     # <-- Thay mật khẩu ứng dụng
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  application:
+    name: qlsv
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://103.149.170.20:3306/db_A46764
+    username: A46764
+    password: A46764@thanglong
+    driver-class-name: com.mysql.cj.jdbc.Driver
+app:
+  jwtSecret: "404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970337336763979244226452948404D6351655468576D5A7134743777217A25432A"
+  jwtExpirationInMs: 86400000
