@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Spring Boot-QlsvApplication<student-attendance-system>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.example.qlsv.QlsvApplication",
+			"projectName": "student-attendance-system",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		}
+	]
+}
